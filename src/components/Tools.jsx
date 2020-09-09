@@ -5,34 +5,34 @@ import firebase from '../img/firebase.png'
 const Tools = () => {
     return (
         <Fragment >
-            <section className="section-21" id="section-21">
+            <section className="section-21" id="Herramientas">
                 <h1 className="section-heading section-2-heading">HERRAMIENTAS</h1>
-                <div className="services">
+                <div className="servicesTools">
                     <div className="service">
-                        <i className="fab fa-html5"></i>
+                        <i className="devicon-html5-plain-wordmark colored"></i>
                     </div>
                     <div className="service">
-                        <i className="fab fa-css3-alt"></i>
+                        <i className="devicon-css3-plain-wordmark colored"></i>
                     </div>
                     <div className="service">
-                        <i className="fab fa-js"></i>
+                            <i className="devicon-javascript-plain colored"></i>
                     </div>
                     <div className="service">
-                        <i className="fab fa-react"></i>
+                         <i className="devicon-react-original-wordmark colored"></i>
                     </div>
                 </div>
-                <div className="services">
+                <div className="servicesTools">
                     <div className="service">
                         <i className="fab fa-node"></i>
                     </div>
                     <div className="service">
-                        <i className="fab fa-bootstrap"></i>
+                     <i className="devicon-bootstrap-plain-wordmark colored"></i>
                     </div>
                     <div className="service">
                         <img className="logos"  alt="" src={firebase}/>
                     </div>
                     <div className="service">
-                        <i className="fab fa-github-square"></i>
+                        <i className="devicon-github-plain-wordmark colored"></i>
                     </div>
                 </div>
         </section>
