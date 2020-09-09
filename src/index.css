@@ -34,6 +34,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-heading {
@@ -51,22 +52,23 @@ html {
 .section-1 {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
+  background-color: #222;
+/*   background: linear-gradient(
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.3)
     ),
-    url(img/bg.jpg) center no-repeat;
+    url(img/bg.jpg) center no-repeat; */
   background-size: cover;
   flex-direction: column;
 }
 
 .section-1-heading {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #fff;
-  background-color: #e41c6f;
+  /* background-color: #00c0c7; */
   padding: 0 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
   border-bottom: 0.3rem solid #fff;
@@ -79,16 +81,16 @@ html {
   height: 25rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 0.7rem dotted #e41c6f;
+  border: 0.7rem dotted #00c0c7;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0.5rem;
   opacity: 0.9;
 }
 
 .person-name {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
-  background-color: #e41c6f;
+  background-color: #00c0c7;
   margin: 5rem 0;
   padding: 0.5rem 3rem;
   letter-spacing: 0.3rem;
@@ -107,9 +109,9 @@ html {
 /* End of Section 1 */
 
 /* Navbar */
- .navbar {
+.navbar {
   width: 100%;
-  height: 4rem;
+  height: 5rem;
   background-color: #00c0c7;
   box-shadow: 0.2rem 0.2rem 0.5rem #555;
   position: fixed;
@@ -157,7 +159,8 @@ html {
 
 .navbar-link:hover::before {
   width: 130%;
-} 
+}
+
 /* End of Navbar */
 
 /* Section 2 */
@@ -172,6 +175,13 @@ html {
 }
 
 .services {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.servicesTools {
   width: 100%;
   height: 30vh;
   display: flex;
@@ -282,7 +292,6 @@ html {
   width: 100%;
   height: 100%;
   padding: 10rem 0;
-  background-color: #eef;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,6 +328,11 @@ html {
   transition: top 0.3s;
 }
 
+.butons{
+  display: flex;
+  flex-direction: row;
+}
+
 .project:hover .project-text {
   top: 5rem;
   transition: top 0.3s 0.3s;
@@ -338,7 +352,7 @@ html {
 
 .project-technologies {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #3fa59d;
 }
 
@@ -419,16 +433,20 @@ html {
 }
 /* End of Section 4 */
 
-/* Section 5 */
+/* Footer Section 5 */
 .section-5 {
   width: 100%;
-  height: 30vh;
+  height: 12vh;
   background-color: #222;
   flex-direction: column;
 }
 
 .social-media {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+}
+.lab{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 
 .social-media-link {
@@ -441,7 +459,13 @@ html {
 
 .social-media-link i {
   font-size: 3rem;
-  color: #fff;
+  color: #fff !important ;
+}
+.fa-download:before {
+  color: #fff !important;
+}
+.fa-github-square:before {
+  color: #fff!important;
 }
 
 .copyright {
@@ -460,6 +484,10 @@ html {
     flex-wrap: wrap;
   }
 
+  .servicesTools{
+    height: auto;
+    flex-wrap: wrap;
+  }
   .service {
     margin: 3rem 2rem;
   }
@@ -491,7 +519,7 @@ html {
   }
 
   .section-2-heading {
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
   }
 
   .project-img {
@@ -545,6 +573,14 @@ html {
     height: auto;
     flex-wrap: wrap;
   }
-
+  .servicesTools{
+    height: auto;
+    flex-wrap: wrap;
+    width: 68%;
+  }
+  .logos {
+    width: 75px;
+}
 }
 /* End of Responsive */
+

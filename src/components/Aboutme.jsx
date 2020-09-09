@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react'
-import avatar2 from '../img/avatar2.png'
+/* import avatar2 from '../img/avatar2.png' */
+import cv from '../img/CVGenesisAsteteAscencio2020.pdf'
 
 
 const Aboutme = () => {
     return (
         <Fragment>
-            <section className="section-2" id="section-2">
+            <section className="section-2" id="SobreMi">
             <h1 className="section-heading section-2-heading">SOBRE MÍ</h1>
-            <img src={avatar2} alt="avatar" className="person-img" />
+           {/*  <img src={avatar2} alt="avatar" className="person-img" /> */}
                 <div className="services">
                     <div className="service">
                         <i className="far fa-lightbulb"></i>
@@ -28,7 +29,7 @@ const Aboutme = () => {
                     <div className="service">
                         <i className="fas fa-download"></i>
                         <h2 className="service-heading">
-                            <a href="https://drive.google.com/file/d/1xU0WPKqMaI3BIJ52-S1EdZjl_p-DiQjV/view?usp=sharing" download="CVGenesisAstete">
+                            <a href={cv} download="CVGenesisAstete">
                             CV</a>
                         </h2>
                     </div>
