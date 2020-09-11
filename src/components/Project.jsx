@@ -94,7 +94,7 @@ const Project = () => {
                     </div>
                     <div className="project">
                         <div className="project-text">
-                            <h2 className="project-name">Datalovers Harry Potter</h2>
+                            <h2 className="project-name">The Golden Snitch</h2>
                             <h4 className="project-description">Encuentra tus personajes favoritos y conoce un poco más de ellos</h4>
                             <h4 className="project-technologies">HTML / CSS / JS</h4>
                         </div>
