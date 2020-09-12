@@ -13,14 +13,27 @@ const Aboutme = () => {
             <div className="cont-about">
                  {/* <div  className="about1"><img src={avatar3} alt="avatar" className="avatar2"/> </div>  */}
                 <div  className="about2">
-                <img src={avatar3} alt="avatar" className="photoC" />
-                    <p>
-                    Hola, Buen día<br/>
-                    Si estás aquí, entonces quiere decir que algo te interesó. Así que quería aprovechar de contarles algo sobre mí. 
-                    Cuando estaba en el liceo había llegado el momento de elegir una carrera y sin dudarlo dije quiero ser Ingeniera Informática, una carrera con mucho futuro donde podía desarrollar mi creatividad y continuamente iba a estar aprendiendo y creando cosas nuevas. Luego de mucho esfuerzo y perseverancia me titule Ingeniera en Informática.
-                    Comencé a trabajar como Coordinadora de Informática y Enlaces en un colegio, se presentó la oportunidad de formar parte del programa de capacitación lenguajes digitales del Mineduc donde aprendí a programar usando Scratch y sentía la necesita de seguir aprendiendo por lo que encontré a Laboratoria una gran Institución donde me he podido formar como programadora Front-End en Javascript con Reactjs, conjuntamente  desarrollando mi autoprendizaje, trabajo en equipo y metodologías agiles. Este es un camino que deseo seguir perfeccionado para llegar a ser una gran desarrolladora. 
-                    </p>
-                        <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                    <div>
+                <img src={avatar3} alt="avatar" className="photoC" /></div>
+                <div className='cont-text'>
+                    <p style={{width:'100%'}}>
+                    Si estás aquí, quiere decir que algo te interesó. 
+                    Así que aprovecho de contarte un poco sobre mí, cuando estaba en el 
+                    liceo llegó el momento de elegir una carrera y sin dudarlo 
+                    dije, quiero ser Ingeniera Informática, una carrera con mucho futuro,
+                    donde podía desarrollarme y continuamente aprender y crear cosas nuevas. 
+                    Luego de mucho esfuerzo y perseverancia "Lo logré, me titulé”. Fui Coordinadora de 
+                    Informática y Enlaces de un Colegio, allí tuve 
+                    la oportunidad de ser parte del programa de capacitación Lenguajes 
+                    Digitales del Mineduc, donde di mis primeros pasos en la programación
+                    realizando juegos en Scratch, con el entusiasmo de seguir aprendiendo 
+                    postule a Laboratoria y quede en el programa, 
+                    donde me he formado como Front-End Developer en Javascript 
+                    con Reactjs, bajo la metodología Ágil, lideré mi autoaprendizaje y
+                    tuve excelentes experiencias trabajando en equipo. Este es un camino que deseo seguir perfeccionado para llegar
+                    a ser una gran desarrolladora.    
+                    </p></div>
+                    <div className="cv" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <a href={cv} download="CVGenesisAstete" ><img src={icv} className="play-btn" alt=""/></a>
                         <a href={cv} download="CVGenesisAstete" className="text-dw"style={{color:'black'}}>Descarga mi CV</a>
                         </div>

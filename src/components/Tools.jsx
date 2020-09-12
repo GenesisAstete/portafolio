@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import lhtml from '../img/html.png'
+import lfirebase from '../img/firebase.png'
+/* import lhtml from '../img/html.png'
 import lcss from '../img/css3.png'
 import ljs from '../img/javascript.png'
-import lfirebase from '../img/firebase.png'
 import lgithub from '../img/github.png'
 import lreact from '../img/reactjs.png'
 import lsass from '../img/sass.png'
-import lnode from '../img/nodejs.png'
+import lnode from '../img/nodejs.png' */
 
 const Tools = () => {
     return (
@@ -59,7 +59,8 @@ const Tools = () => {
                     <div className="service">
                         {/* <img className="logos"  alt="" src={firebase}/> */}
                         {/* <img src={lfirebase} style={{width:'40%', filter: 'drop-shadow(3px 2px 7px #444)'}}/> */}
-                        <img src="https://img.icons8.com/color/480/000000/firebase.png" style={{width: '11rem'}}/>
+                        {/* "https://img.icons8.com/color/480/000000/firebase.png" */}
+                        <img src={lfirebase} style={{width: '11rem'}} alt=""/>
                         <p style={{fontSize:'2rem', fontWeight:'500', textShadow: '0.1em 0.1em 0.2em #444'}}>FIREBASE</p>
                     </div>
                     <div className="service">
