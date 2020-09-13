@@ -59,7 +59,7 @@ const Project = () => {
                         </div>
                         <img src={proyect1} alt="proyecto1" className="project-img" />
                         <a
-                        href="https://wizardly-borg-d4b9f8.netlify.app/"
+                        href="https://burguerqueen.netlify.app/"
                         className="project-link"
                         rel="noopener noreferrer"
                         target="black" style={{marginLeft:"-20rem"}}
@@ -100,7 +100,7 @@ const Project = () => {
                         </div>
                         <img src={protect3} alt="proyecto3" className="project-img" />
                         <a
-                        href="https://nathaliachn.github.io/SCL013-data-lovers/src/index.html"
+                        href="https://thegoldsnitch.netlify.app/"
                         className="project-link"
                         rel="noopener noreferrer"
                         target="black" style={{marginLeft:"-20rem"}}

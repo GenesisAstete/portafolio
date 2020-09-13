@@ -9,18 +9,8 @@ const Contact = () => {
     return (
         <Fragment>
             <footer className="section-5 center">
-                <div  style={{color:'white', fontSize:'2rem'}} >CONTACTAME</div>
+                <div  style={{color:'white', fontSize:'2rem'}} >CONTÁCTAME</div>
             <div className="social-media">
-{/*             <a href="https://github.com/GenesisAstete" className="social-media-link">
-                <i className="fab fa-github-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/genesis-macarena-astete-ascencio-66b4031b1/" className="social-media-link">
-                <i className="fa fa-linkedin-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/genesis-macarena-astete-ascencio-66b4031b1/" className="social-media-link">
-                <img src={l} style={{width:'3rem', borderRadius:'10px'}} alt=""/>
-            </a> */}
-
           <a href="https://github.com/GenesisAstete" target="black" >
             <img src={igit} width="60rem"alt=""/>
           </a>
