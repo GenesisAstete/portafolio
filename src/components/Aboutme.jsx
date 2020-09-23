@@ -27,10 +27,11 @@ const Aboutme = () => {
                     la oportunidad de ser parte del programa de capacitación Lenguajes 
                     Digitales del Mineduc, donde di mis primeros pasos en la programación
                     realizando juegos en Scratch, con el entusiasmo de seguir aprendiendo 
-                    postule a Laboratoria y quede en el programa, 
+                    postulé a Laboratoria y quedé en el programa, 
                     donde me he formado como Front-End Developer en Javascript 
                     con Reactjs, bajo la metodología Ágil, lideré mi autoaprendizaje y
-                    tuve excelentes experiencias trabajando en equipo. Este es un camino que deseo seguir perfeccionado para llegar
+                    tuve excelentes experiencias trabajando en equipo. Este es un camino que deseo seguir 
+                    perfeccionado para llegar
                     a ser una gran desarrolladora.    
                     </p></div>
                     <div className="cv" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>

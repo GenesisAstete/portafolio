@@ -18,7 +18,7 @@ const Project = () => {
                         </div>
                         <img src={proyect5} alt="proyecto4" className="project-img" />
                         <a
-                        href="https://trusting-jepsen-2abf56.netlify.app/"
+                        href="https://ganemoslealvirus.netlify.app"
                         className="project-link"
                         rel="noopener noreferrer" style={{marginLeft:"-20rem"}}
                         target="black"
@@ -75,17 +75,17 @@ const Project = () => {
                         <div className="project-text">
                             <h2 className="project-name">"La Picá del Viajero"</h2>
                             <h4 className="project-description">Red Social para compartir y recomendar tus experiencias de viajes por Chile</h4>
-                            <h4 className="project-technologies">HTML /CSS /JS/Firebase</h4>
+                            <h4 className="project-technologies">HTML /CSS /ReactJS/Firebase</h4>
                         </div>
                         <img src={proyect2} alt="proyecto2" className="project-img" />
                         <a
-                        href="https://picadelviajero.web.app/#/login"
+                        href="https://lapicadelviajero-1f992.web.app/"
                         className="project-link"
                         rel="noopener noreferrer"
                         target="black" style={{marginLeft:"-20rem"}}
                         >Demo</a>
                         <a
-                        href="https://github.com/GenesisAstete/SCL013-social-network"
+                        href="https://github.com/GenesisAstete/PicadelViajero-Reactjs"
                         className="project-link"
                         rel="noopener noreferrer"
                         target="black" style={{marginLeft:"20rem"}}
